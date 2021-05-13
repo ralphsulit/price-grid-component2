@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Karla', sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:hsl(204, 43%, 93%)
+}
+
+/* ***************  
+Colors
+*************** */
+.light-gray {
+  color: hsl(204, 43%, 93%);
+}
+
+.cyan {
+  color: hsl(179, 62%, 43%);
+}
+
+.yellow {
+  color: hsl(72, 73%, 54%);
+}
+
+.blue {
+  color: hsl(218, 22%, 67%);
+}
+
+
+/* ***************  
+Section 
+*************** */
+.section-container {
+  width: 310px;
+  color:hsl(218, 22%, 67%)
+}
+
+/* ***************  
+Section Details
+*************** */
+.section-details {
+  padding: 30px 30px;
+  background-color: hsl(206, 100%, 99%);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.section-details h3 {
+  color:hsl(179, 62%, 43%);
+  margin-bottom: 25px;
+}
+
+.section-details h4 {
+  color:hsl(72, 73%, 54%);
+  margin-bottom: 25px;
+}
+
+.section-details h5 {
+  color:hsl(218, 22%, 67%);
+  font-weight: 400;
+  line-height: 25px;
+}
+
+/* ***************  
+Section Price
+*************** */
+.section-price {
+  background-color:hsl(179, 62%, 43%);
+  padding: 30px 30px;
+  color:hsla(204, 100%, 99%, 0.979);
+  line-height: 40px;
+}
+
+.price-month {
+  display: flex;
+  align-items: center;
+  color:hsl(204, 43%, 93%);
+}
+
+.price {
+  font-size: 2em;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.section-price h4 {
+  font-weight: 400;
+  color:hsl(204, 43%, 93%); 
+}
+
+.section-price button {
+  cursor: pointer;
+  font-weight: 700;
+  color:hsl(206, 100%, 99%);
+  background-color:hsl(72, 73%, 54%);
+  padding: 15px 100px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px rgb(131, 130, 130);
+  margin-top: 20px;
+}
+
+/* ***************  
+Section About
+*************** */
+.section-about {
+  background-color:hsl(179, 58%, 48%);
+  color:hsl(206, 100%, 99%);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 30px 30px;
+}
+
+.section-about p {
+  font-weight: 400;
+  color:hsl(204, 43%, 93%);
+  font-size: 0.9em;
+  width: 210px;
+  line-height: 22px;
+  margin-top: 20px;
+}
