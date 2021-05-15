@@ -144,7 +144,44 @@ Media Query:
 Desktop
 *************** */
 @media (min-width: 1440px) {
-  .section-container {
+  .section-details {
+    width: 660px;
+  }
+
+  .section-details h3 {
+    font-size: 1.5em;
+  }
+
+  .section-details h4 {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+  }
+
+  .section-details h5 {
+    width: 528px;
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+
+  .section-bottom {
+    display: flex;
     width: 700px;
   }
+
+  .section-price,
+  .section-about {
+    width: 330px;
+  }
+
+  .section-price {
+    border-bottom-left-radius: 5px;
+  }
+
+  .section-about {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 5px;
+  }
+
+
+
 }
