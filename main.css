@@ -127,3 +127,24 @@ Section About
   line-height: 22px;
   margin-top: 20px;
 }
+
+/* ***************  
+Media Query:
+Tablet
+*************** */
+@media (min-width: 768px) {
+  .section-container {
+    width: 400px;
+    color:hsl(218, 22%, 67%);
+  }
+}
+
+/* ***************  
+Media Query:
+Desktop
+*************** */
+@media (min-width: 1440px) {
+  .section-container {
+    width: 700px;
+  }
+}
